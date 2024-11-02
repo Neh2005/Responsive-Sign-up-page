@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Signup Form</title>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+</head>
+<body class="bg-primary">
+	<div class="container d-flex justify-content-center align-items-center">
+	<div class="container-sm. container-md" >
+    <div class="mb-auto pt-5">
+	<form action="",method="POST">
+	<div class="form-group bg-white pl-5 pr-5" style="height:610px;">
+		<h2 class="pt-5"><b>Sign Up</b></h2>
+		<h6 class="text-secondary"><small>Please fill in this form to create an account!</small></h6>  
+		<div class="row">
+			<div class="col-md-6 pt-4"> 
+	     	   <input type="text" class="form-control" style="border: none;background-color:#f2f2f2" placeholder="First Name" name="fname" required="required">
+			</div>
+			<div class="col-md-6 pt-4">
+			   <input type="text" class="form-control" style="border: none; background-color:#f2f2f2" placeholder="Last Name" name="lname" required="required">  
+		    </div> 
+		</div> 
+		<div class="col-13 pt-4">
+		   <input type="email" class="form-control" style="border: none;background-color:#f2f2f2" placeholder="Email" name="mail" required="required"> 
+		</div> 
+		<div class="col-13 pt-4">
+			<input type="password" class="form-control" style="border: none;background-color:#f2f2f2" name="pwd" placeholder="Password" required="required">  
+		</div>
+		<div class="col-13 pt-4">
+			<input type="password" class="form-control" name="pwd" style="border: none;background-color:#f2f2f2" placeholder="Confirm Password" required="required"> 
+		</div> 
+		<div class="form-check mb-2 mr-sm-2 pt-4">
+			<label class="checkbox-inline"></label>
+			<input type="checkbox" class="form-check-input" required="required"style="background-color:#f2f2f2" name="box" required><span class="text-secondary">I accept the <a href="#">Terms of Use</a>&<a href="#"> Privacy Policy</a></span> 
+		</div> 
+		<div class="row5 pt-4">
+			<button type="submit" class="btn btn-primary btn-lg" style="width: 250px;"><b class="pt-4">Sign Up</b></button>
+        </div> 
+        </div>
+        </form>
+        </div>
+        </div>
+        <h5 class="login" style=" position:absolute; bottom:10px;"><small class="text-white"> Already have an account?<a href="#"><span class="text-white" style="text-decoration: underline;">Login here</small></a></span></h5>
+    </div>
+    </div>
+    </div>    
+</body>
+</html>
